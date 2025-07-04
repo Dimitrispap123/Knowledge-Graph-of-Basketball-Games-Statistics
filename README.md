@@ -1,8 +1,8 @@
 # Knowledge Graph of Basketball Games Statistics
 
-🏀 A comprehensive knowledge graph system for EuroLeague basketball statistics, transforming 25 seasons of data into a semantic web format with over 5 million RDF triples.
+ A comprehensive knowledge graph system for EuroLeague basketball statistics, transforming 25 seasons of data into a semantic web format with over 5 million RDF triples.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -17,7 +17,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 This project creates a comprehensive knowledge graph for EuroLeague basketball statistics spanning 25 seasons (2000-2025). The system transforms raw basketball data from the EuroLeague API into structured RDF format using a custom-designed **BBall ontology**.
 
@@ -28,7 +28,7 @@ This project creates a comprehensive knowledge graph for EuroLeague basketball s
 - **144,199 player participations** with detailed statistics
 - **3,234 unique players** covered
 
-## ✨ Features
+##  Features
 
 ### Data Processing
 - **Automated data collection** from 9 EuroLeague API endpoints
@@ -46,9 +46,8 @@ This project creates a comprehensive knowledge graph for EuroLeague basketball s
 - **Full SPARQL support** for complex analytical queries
 - **Multi-dimensional analysis** across players, teams, seasons, and games
 - **Performance optimization** via Virtuoso SPARQL endpoint
-- **Natural language integration** with 79% accuracy using GPT-4
 
-## 🏗️ Architecture
+##  Architecture
 
 The system follows a four-stage pipeline:
 
@@ -67,7 +66,7 @@ EuroLeague API → JSON Processing → RDF Conversion → Virtuoso DB → SPARQL
 - Java 8+
 - Maven 3.6+
 - Virtuoso Universal Server v7
-- 4GB+ RAM (recommended for large datasets)
+
 
 ### Setup
 1. Clone the repository
