@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph Analytics Dashboard</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #2d3748;
+        }
+
+        .dashboard-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .dashboard-header p {
+            color: #718096;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .stat-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #718096;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .chart-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .chart-section h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .chart-section h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+
+        .basic-chart-container {
+            height: 400px;
+            margin-top: 1rem;
+        }
+
+        .table-container {
+            margin-top: 1rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+        }
+
+        .loading-spinner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: #718096;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(102, 126, 234, 0.2);
+            border-left: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: rgba(245, 101, 101, 0.1);
+            border: 1px solid rgba(245, 101, 101, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            color: #c53030;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .refresh-button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            margin-top: 1rem;
+        }
+
+        .refresh-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .dashboard-header {
+                padding: 1.5rem;
+            }
+
+            .dashboard-header h1 {
+                font-size: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chart-section {
+                padding: 1.5rem;
+            }
+        }
+
+
+        .table-container .google-visualization-table-table {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        }
+
+        .table-container .google-visualization-table-table td,
+        .table-container .google-visualization-table-table th {
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            padding: 12px 16px !important;
+            color: #2d3748 !important;
+        }
+
+        .table-container .google-visualization-table-table th {
+            background-color: #f7fafc !important;
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            color: #1a202c !important;
+            border-bottom: 2px solid #e2e8f0 !important;
+        }
+
+        .table-container .google-visualization-table-table tr:nth-child(even) {
+            background-color: #f9fafb !important;
+        }
+
+        .table-container .google-visualization-table-table tr:hover {
+            background-color: #edf2f7 !important;
+        }
+
+        .table-container .google-visualization-table-table .google-visualization-table-sorthdr {
+            font-size: 14px !important;
+            font-weight: 700 !important;
+        }
+    </style>
+</head>
+<body>
+<div class="dashboard-header">
+    <h1>Knowledge Graph Analytics</h1>
+    <p>Comprehensive insights into your Virtuoso knowledge graph structure and content</p>
+</div>
+
+<div class="container">
+    <div class="stats-grid" id="stats-grid">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading statistics...</p>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Knowledge Graph Overview</h2>
+        <div id="basic_stats" class="basic-chart-container"></div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Top Classes by Instance Count</h2>
+        <div class="table-container">
+            <div id="class_table"></div>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Most Used Properties</h2>
+        <div class="table-container">
+            <div id="property_table"></div>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Property Subject Distribution</h2>
+        <div class="table-container">
+            <div id="property_subjects_table"></div>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Property Object Distribution</h2>
+        <div class="table-container">
+            <div id="property_objects_table"></div>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Literal Data Types Distribution</h2>
+        <div id="literal_types_chart" class="basic-chart-container"></div>
+    </div>
+
+    <div class="chart-section">
+        <h2>Top URI Namespaces</h2>
+        <div id="uri_prefixes_chart" class="basic-chart-container"></div>
+    </div>
+</div>
+
+<script>
+    google.charts.load('current', { packages: ['corechart', 'bar', 'table'] });
+    google.charts.setOnLoadCallback(loadData);
+
+    let statsData = null;
+
+    function loadData() {
+        showLoading();
+
+        fetch('/kgStatsFull')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                statsData = data;
+                drawStatCards(data.basic);
+                drawBasicStats(data.basic);
+                drawTopClasses(data.classes);
+                drawTopProperties(data.properties);
+                drawPropertySubjects(data.propertySubjects);
+                drawPropertyObjects(data.propertyObjects);
+                if (data.literalTypes) drawLiteralTypes(data.literalTypes);
+                if (data.uriPrefixes) drawURIPrefixes(data.uriPrefixes);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                showError(error.message);
+            });
+    }
+
+    function showLoading() {
+        const statsGrid = document.getElementById('stats-grid');
+        statsGrid.innerHTML = `
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading statistics...</p>
+                </div>
+            `;
+    }
+
+    function showError(message) {
+        const statsGrid = document.getElementById('stats-grid');
+        statsGrid.innerHTML = `
+                <div class="error-message">
+                    <h3>Failed to load data</h3>
+                    <p>${message}</p>
+                    <button class="refresh-button" onclick="loadData()">Retry</button>
+                </div>
+            `;
+    }
+
+    function formatNumber(num) {
+        if (num >= 1000000) {
+            return (num / 1000000).toFixed(1) + 'M';
+        } else if (num >= 1000) {
+            return (num / 1000).toFixed(1) + 'K';
+        }
+        return num.toLocaleString();
+    }
+
+    function drawStatCards(data) {
+        const stats = [
+            {
+                label: 'Total Triples',
+                value: data.totalTriples,
+                icon: `<svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`
+            },
+            {
+                label: 'Entities',
+                value: data.totalEntities,
+                icon: `<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`
+            },
+            {
+                label: 'URI Objects',
+                value: data.triplesWithObjectURIs,
+                icon: `<svg viewBox="0 0 24 24"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H6.99c-2.76 0-5 2.24-5 5s2.24 5 5 5H11v-1.9H6.99c-1.71 0-3.09-1.39-3.09-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1H13V17h4.01c2.76 0 5-2.24 5-5s-2.24-5-5.01-5z"/></svg>`
+            },
+            {
+                label: 'Literal Objects',
+                value: data.triplesWithObjectLiterals,
+                icon: `<svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>`
+            },
+            {
+                label: 'Distinct Literals',
+                value: data.distinctLiterals,
+                icon: `<svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>`
+            },
+            {
+                label: 'Predicates',
+                value: data.totalPredicates,
+                icon: `<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`
+            }
+        ];
+
+        const statsGrid = document.getElementById('stats-grid');
+        statsGrid.innerHTML = stats.map(stat => `
+                <div class="stat-card">
+                    <div class="stat-icon">${stat.icon}</div>
+                    <div class="stat-value">${formatNumber(stat.value)}</div>
+                    <div class="stat-label">${stat.label}</div>
+                </div>
+            `).join('');
+    }
+
+    function drawBasicStats(data) {
+        var chartData = new google.visualization.DataTable();
+        chartData.addColumn('string', 'Metric');
+        chartData.addColumn('number', 'Count');
+        chartData.addColumn({type: 'string', role: 'annotation'});
+
+        chartData.addRows([
+            ['Total Triples', data.totalTriples, formatNumber(data.totalTriples)],
+            ['Entities (rdf:type)', data.totalEntities, formatNumber(data.totalEntities)],
+            ['Distinct Predicates', data.totalPredicates, formatNumber(data.totalPredicates)],
+            ['Distinct Classes', data.totalClasses, formatNumber(data.totalClasses)],
+            ['Distinct Subjects', data.distinctSubjects, formatNumber(data.distinctSubjects)],
+            ['Distinct Objects', data.distinctObjects, formatNumber(data.distinctObjects)]
+        ]);
+
+        let maxValue = Math.max(
+            data.totalTriples,
+            data.totalEntities,
+            data.totalPredicates,
+            data.totalClasses,
+            data.distinctSubjects,
+            data.distinctObjects
+        );
+
+        var options = {
+            title: '',
+            chartArea: {
+                width: '70%',
+                height: '80%',
+                left: 200,
+                top: 40
+            },
+            hAxis: {
+                title: 'Count',
+                minValue: 0,
+                textStyle: { fontSize: 12, color: '#4a5568' },
+                titleTextStyle: { fontSize: 14, color: '#2d3748', bold: true },
+                gridlines: { color: '#e2e8f0', count: 8 },
+                format: 'short'
+            },
+            vAxis: {
+                textStyle: { fontSize: 16, color: '#2d3748', bold: true },
+                gridlines: { color: 'transparent' }
+            },
+            legend: { position: 'none' },
+            backgroundColor: 'transparent',
+            bar: { groupWidth: '60%' },
+            colors: ['#667eea'],
+            annotations: {
+                alwaysOutside: true,
+                textStyle: {
+                    fontSize: 16,
+                    color: '#2d3748',
+                    bold: true
+                }
+            }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('basic_stats'));
+        chart.draw(chartData, options);
+    }
+
+    function drawTopClasses(data) {
+        var tableData = new google.visualization.DataTable();
+        tableData.addColumn('string', 'Class');
+        tableData.addColumn('number', 'Instances');
+
+        data.forEach(row => tableData.addRow([row.class, row.count]));
+
+        var options = {
+            showRowNumber: true,
+            width: '100%',
+            height: '100%',
+            alternatingRowStyle: false,
+            cssClassNames: {
+                'oddTableRow': 'odd-row',
+                'evenTableRow': 'even-row'
+            }
+        };
+
+        var table = new google.visualization.Table(document.getElementById('class_table'));
+        table.draw(tableData, options);
+        setTimeout(() => {
+            const tableElement = document.querySelector('#class_table .google-visualization-table-table');
+            if (tableElement) {
+                tableElement.style.fontSize = '14px';
+                tableElement.style.fontFamily = 'Inter, sans-serif';
+            }
+        }, 100);
+    }
+
+    function drawTopProperties(data) {
+        var tableData = new google.visualization.DataTable();
+        tableData.addColumn('string', 'Property');
+        tableData.addColumn('number', 'Usage Count');
+
+        data.forEach(row => tableData.addRow([row.property, row.count]));
+
+        var options = {
+            showRowNumber: true,
+            width: '100%',
+            height: '100%'
+        };
+
+        var table = new google.visualization.Table(document.getElementById('property_table'));
+        table.draw(tableData, options);
+
+        // Apply custom styling after table is drawn
+        setTimeout(() => {
+            const tableElement = document.querySelector('#property_table .google-visualization-table-table');
+            if (tableElement) {
+                tableElement.style.fontSize = '14px';
+                tableElement.style.fontFamily = 'Inter, sans-serif';
+            }
+        }, 100);
+    }
+
+    function drawPropertySubjects(data) {
+        var tableData = new google.visualization.DataTable();
+        tableData.addColumn('string', 'Property');
+        tableData.addColumn('number', 'Distinct Subjects');
+
+        data.forEach(row => tableData.addRow([row.property, row.count]));
+
+        var options = {
+            showRowNumber: true,
+            width: '100%',
+            height: '100%'
+        };
+
+        var table = new google.visualization.Table(document.getElementById('property_subjects_table'));
+        table.draw(tableData, options);
+
+        // Apply custom styling after table is drawn
+        setTimeout(() => {
+            const tableElement = document.querySelector('#property_subjects_table .google-visualization-table-table');
+            if (tableElement) {
+                tableElement.style.fontSize = '14px';
+                tableElement.style.fontFamily = 'Inter, sans-serif';
+            }
+        }, 100);
+    }
+
+    function drawPropertyObjects(data) {
+        var tableData = new google.visualization.DataTable();
+        tableData.addColumn('string', 'Property');
+        tableData.addColumn('number', 'Distinct Objects');
+
+        data.forEach(row => tableData.addRow([row.property, row.count]));
+
+        var options = {
+            showRowNumber: true,
+            width: '100%',
+            height: '100%'
+        };
+
+        var table = new google.visualization.Table(document.getElementById('property_objects_table'));
+        table.draw(tableData, options);
+
+        // Apply custom styling after table is drawn
+        setTimeout(() => {
+            const tableElement = document.querySelector('#property_objects_table .google-visualization-table-table');
+            if (tableElement) {
+                tableElement.style.fontSize = '14px';
+                tableElement.style.fontFamily = 'Inter, sans-serif';
+            }
+        }, 100);
+    }
+
+    function drawLiteralTypes(data) {
+        if (!data || data.length === 0) return;
+
+        var chartData = new google.visualization.DataTable();
+        chartData.addColumn('string', 'Data Type');
+        chartData.addColumn('number', 'Count');
+        chartData.addColumn({type: 'string', role: 'annotation'});
+
+        data.forEach(row => {
+            let datatype = row.datatype;
+            if (datatype && datatype.includes('#')) {
+                datatype = datatype.split('#').pop();
+            } else if (datatype && datatype.includes('/')) {
+                datatype = datatype.split('/').pop();
+            }
+            chartData.addRow([datatype || 'untyped', row.count, formatNumber(row.count)]);
+        });
+
+        var options = {
+            title: '',
+            chartArea: {
+                width: '70%',
+                height: '80%',
+                left: 150,
+                top: 40
+            },
+            hAxis: {
+                title: 'Count',
+                minValue: 0,
+                textStyle: { fontSize: 12, color: '#4a5568' },
+                titleTextStyle: { fontSize: 14, color: '#2d3748', bold: true },
+                gridlines: { color: '#e2e8f0', count: 8 },
+                format: 'short'
+            },
+            vAxis: {
+                textStyle: { fontSize: 16, color: '#2d3748', bold: true },
+                gridlines: { color: 'transparent' }
+            },
+            legend: { position: 'none' },
+            backgroundColor: 'transparent',
+            bar: { groupWidth: '60%' },
+            colors: ['#764ba2'],
+            annotations: {
+                alwaysOutside: true,
+                textStyle: {
+                    fontSize: 16,
+                    color: '#2d3748',
+                    bold: true
+                }
+            }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('literal_types_chart'));
+        chart.draw(chartData, options);
+    }
+
+    function drawURIPrefixes(data) {
+        if (!data || data.length === 0) return;
+
+        var chartData = new google.visualization.DataTable();
+        chartData.addColumn('string', 'URI Prefix');
+        chartData.addColumn('number', 'Usage Count');
+
+        data.slice(0, 10).forEach(row => {
+            let prefix = row.prefix;
+            if (prefix && prefix.length > 50) {
+                prefix = '...' + prefix.substring(prefix.length - 47);
+            }
+            chartData.addRow([prefix, row.count]);
+        });
+
+        var options = {
+            title: '',
+            chartArea: {
+                width: '65%',
+                height: '80%',
+                left: 200,
+                top: 40
+            },
+            hAxis: {
+                title: 'Usage Count',
+                minValue: 0,
+                textStyle: { fontSize: 12, color: '#4a5568' },
+                titleTextStyle: { fontSize: 14, color: '#2d3748', bold: true },
+                gridlines: { color: '#e2e8f0', count: 8 },
+                format: 'short'
+            },
+            vAxis: {
+                textStyle: { fontSize: 14, color: '#2d3748', bold: true },
+                gridlines: { color: 'transparent' }
+            },
+            legend: { position: 'none' },
+            backgroundColor: 'transparent',
+            bar: { groupWidth: '60%' },
+            colors: ['#9f7aea']
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('uri_prefixes_chart'));
+        chart.draw(chartData, options);
+    }
+
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        if (statsData) {
+            drawBasicStats(statsData.basic);
+            if (statsData.literalTypes) drawLiteralTypes(statsData.literalTypes);
+            if (statsData.uriPrefixes) drawURIPrefixes(statsData.uriPrefixes);
+        }
+    });
+</script>
+</body>
+</html>
