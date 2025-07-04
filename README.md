@@ -79,30 +79,6 @@ virtuoso.password=dba
 java -cp target/classes GetGamesStats
 ```
 
-## Usage
-
-### Data Collection
-```java
-// Collect data from EuroLeague API
-GetGamesStats collector = new GetGamesStats();
-collector.fetchAllSeasons();
-```
-
-### RDF Generation
-```java
-// Convert JSON data to RDF
-GameToRDF converter = new GameToRDF();
-converter.processAllGames();
-```
-
-### Data Loading
-```java
-// Load RDF files into Virtuoso
-Virtuoso virtuoso = new Virtuoso();
-virtuoso.uploadAllFiles();
-```
-
-
 ## Data Structure
 
 ### Core Classes
