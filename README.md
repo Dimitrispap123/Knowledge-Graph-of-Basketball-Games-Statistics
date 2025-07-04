@@ -52,33 +52,6 @@ EuroLeague API → JSON Processing → RDF Conversion → Virtuoso DB → SPARQL
 - Maven 3.6+
 - Virtuoso Universal Server v7
 
-
-### Setup
-1. Clone the repository
-```bash
-git clone https://github.com/Dimitrispap123/Knowledge-Graph-of-Basketball-Games-Statistics.git
-cd Knowledge-Graph-of-Basketball-Games-Statistics
-```
-
-2. Install dependencies
-```bash
-mvn clean install
-```
-
-3. Configure Virtuoso connection
-```bash
-# Edit src/main/resources/config.properties
-virtuoso.host=localhost
-virtuoso.port=1111
-virtuoso.username=dba
-virtuoso.password=dba
-```
-
-4. Start data collection
-```bash
-java -cp target/classes GetGamesStats
-```
-
 ## Data Structure
 
 ### Core Classes
