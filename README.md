@@ -45,7 +45,7 @@ The system follows a four-stage pipeline:
 EuroLeague API → JSON Processing → RDF Conversion → Virtuoso DB → SPARQL Endpoint
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Java 8+
@@ -79,7 +79,7 @@ virtuoso.password=dba
 java -cp target/classes GetGamesStats
 ```
 
-## 📊 Usage
+## Usage
 
 ### Data Collection
 ```java
@@ -103,7 +103,7 @@ virtuoso.uploadAllFiles();
 ```
 
 
-## 🗂️ Data Structure
+## Data Structure
 
 ### Core Classes
 - **Game**: Central entity connecting all basketball data
