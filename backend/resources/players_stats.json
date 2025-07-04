@@ -1,0 +1,2382 @@
+{
+  "local": {
+    "coach": {
+      "code": "DAS",
+      "name": "MATEO, CHUS"
+    },
+    "players": [
+      {
+        "player": {
+          "person": {
+            "code": "003733",
+            "name": "ABALDE, ALBERTO",
+            "alias": "ABALDE, ALBERTO",
+            "aliasRaw": "ABALDE, ALBERTO",
+            "passportName": "ALBERTO",
+            "passportSurname": "ABALDE DIAZ",
+            "jerseyName": "ABALDE",
+            "abbreviatedName": "Abalde, A.",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 202,
+            "weight": 95,
+            "birthDate": "1995-12-15T00:00:00",
+            "birthCountry": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "twitterAccount": "albertoabalde6",
+            "instagramAccount": "aabalde6/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:34.645",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "6",
+          "dorsalRaw": "6",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47344,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/941aa428-b35b-4aff-9fbc-13bf0061d6ad.png",
+            "headshot": "https://media-cdn.incrowdsports.com/941aa428-b35b-4aff-9fbc-13bf0061d6ad.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 0,
+          "valuation": 0,
+          "points": 0,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 0,
+          "accuracyMade": 0,
+          "accuracyAttempted": 0,
+          "totalRebounds": 0,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 0,
+          "foulsReceived": 0,
+          "plusMinus": 0,
+          "dorsal": 6,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "005928",
+            "name": "CAMPAZZO, FACUNDO",
+            "alias": "Campazzo",
+            "aliasRaw": "Campazzo",
+            "passportName": "FACUNDO",
+            "passportSurname": "CAMPAZZO",
+            "jerseyName": "CAMPAZZO",
+            "abbreviatedName": "Campazzo, F.",
+            "country": {
+              "code": "ARG",
+              "name": "Argentina"
+            },
+            "height": 181,
+            "weight": 84,
+            "birthDate": "1991-03-23T00:00:00",
+            "birthCountry": {
+              "code": "ARG",
+              "name": "Argentina"
+            },
+            "twitterAccount": "facundocampazzo ",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:35.318",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "7",
+          "dorsalRaw": "7",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "CRVENA ZVEZDA",
+          "externalId": 47345,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/3e8764fc-3edf-49b9-8d87-8f16757e87c8.png",
+            "action": "https://media-cdn.incrowdsports.com/3e8764fc-3edf-49b9-8d87-8f16757e87c8.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1330,
+          "valuation": 14,
+          "points": 12,
+          "fieldGoalsMade2": 2,
+          "fieldGoalsAttempted2": 4,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 4,
+          "freeThrowsMade": 2,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 4,
+          "fieldGoalsAttemptedTotal": 8,
+          "accuracyMade": 12,
+          "accuracyAttempted": 22,
+          "totalRebounds": 2,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 1,
+          "assistances": 4,
+          "steals": 1,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 5,
+          "foulsReceived": 5,
+          "plusMinus": 0,
+          "dorsal": 7,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "001392",
+            "name": "CAUSEUR, FABIEN",
+            "alias": "Causeur",
+            "aliasRaw": "Causeur",
+            "passportName": "FABIEN",
+            "passportSurname": "CAUSEUR",
+            "jerseyName": "CAUSEUR",
+            "abbreviatedName": "Causeur, F.",
+            "country": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "height": 196,
+            "weight": 86,
+            "birthDate": "1987-06-16T00:00:00",
+            "birthCountry": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "twitterAccount": "FCauseur1",
+            "instagramAccount": "fabcau/",
+            "facebookAccount": "fabiencauseur/",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:32.732",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "1",
+          "dorsalRaw": "1",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47340,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/b3c95cd7-3de5-43e7-a89c-1965bcb0042d.png",
+            "headshot": "https://media-cdn.incrowdsports.com/b3c95cd7-3de5-43e7-a89c-1965bcb0042d.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 265,
+          "valuation": 3,
+          "points": 2,
+          "fieldGoalsMade2": 1,
+          "fieldGoalsAttempted2": 1,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 1,
+          "fieldGoalsAttemptedTotal": 1,
+          "accuracyMade": 2,
+          "accuracyAttempted": 2,
+          "totalRebounds": 0,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 2,
+          "plusMinus": 2,
+          "dorsal": 1,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "BMT",
+            "name": "FERNANDEZ, RUDY",
+            "alias": "FERNANDEZ, RUDY",
+            "aliasRaw": "FERNANDEZ, RUDY",
+            "passportName": "RODOLFO",
+            "passportSurname": "FERNANDEZ FARRES",
+            "jerseyName": "RUDY",
+            "abbreviatedName": "Fernandez, R.",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 196,
+            "weight": 83,
+            "birthDate": "1985-04-04T00:00:00",
+            "birthCountry": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "twitterAccount": "rudy5fernandez",
+            "instagramAccount": "rudy5fernandez/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:34.149",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "5",
+          "dorsalRaw": "5",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47343,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/81ff9d74-1784-441e-addd-b9198bfdab15.png",
+            "headshot": "https://media-cdn.incrowdsports.com/81ff9d74-1784-441e-addd-b9198bfdab15.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 616,
+          "valuation": 2,
+          "points": 0,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 1,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 1,
+          "accuracyMade": 0,
+          "accuracyAttempted": 3,
+          "totalRebounds": 1,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 0,
+          "assistances": 1,
+          "steals": 3,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 0,
+          "plusMinus": -7,
+          "dorsal": 5,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "003108",
+            "name": "HEZONJA, MARIO",
+            "alias": "Hezonja",
+            "aliasRaw": "Hezonja",
+            "passportName": "MARIO",
+            "passportSurname": "HEZONJA",
+            "jerseyName": "HEZONJA",
+            "abbreviatedName": "Hezonja, M.",
+            "country": {
+              "code": "CRO",
+              "name": "Croatia"
+            },
+            "height": 206,
+            "weight": 110,
+            "birthDate": "1995-02-25T00:00:00",
+            "birthCountry": {
+              "code": "CRO",
+              "name": "Croatia"
+            },
+            "twitterAccount": "mariohezonja",
+            "instagramAccount": "supermariohezonja/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:36.841",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "11",
+          "dorsalRaw": "11",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47348,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/03fc7874-71a9-4e26-8deb-c3410ca08fd8.png",
+            "action": "https://media-cdn.incrowdsports.com/03fc7874-71a9-4e26-8deb-c3410ca08fd8.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1909,
+          "valuation": 13,
+          "points": 8,
+          "fieldGoalsMade2": 2,
+          "fieldGoalsAttempted2": 4,
+          "fieldGoalsMade3": 1,
+          "fieldGoalsAttempted3": 7,
+          "freeThrowsMade": 1,
+          "freeThrowsAttempted": 1,
+          "fieldGoalsMadeTotal": 3,
+          "fieldGoalsAttemptedTotal": 11,
+          "accuracyMade": 8,
+          "accuracyAttempted": 30,
+          "totalRebounds": 8,
+          "defensiveRebounds": 7,
+          "offensiveRebounds": 1,
+          "assistances": 2,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 0,
+          "foulsReceived": 4,
+          "plusMinus": -4,
+          "dorsal": 11,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "TGB",
+            "name": "LLULL, SERGIO",
+            "alias": "Llull",
+            "aliasRaw": "Llull",
+            "passportName": "SERGIO",
+            "passportSurname": "LLULL MELIA",
+            "jerseyName": "LLULL",
+            "abbreviatedName": "Llull, S.",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 190,
+            "weight": 94,
+            "birthDate": "1987-11-15T00:00:00",
+            "birthCountry": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "twitterAccount": "23Llull",
+            "instagramAccount": "",
+            "facebookAccount": "23llull/",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:39.869",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "23",
+          "dorsalRaw": "23",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47354,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/59385b53-a914-4249-b46c-5252efc65096.png",
+            "headshot": "https://media-cdn.incrowdsports.com/59385b53-a914-4249-b46c-5252efc65096.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1236,
+          "valuation": -2,
+          "points": 6,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 2,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 7,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 2,
+          "fieldGoalsAttemptedTotal": 9,
+          "accuracyMade": 6,
+          "accuracyAttempted": 25,
+          "totalRebounds": 0,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 0,
+          "assistances": 1,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 0,
+          "plusMinus": -18,
+          "dorsal": 23,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "006540",
+            "name": "MUSA, DZANAN",
+            "alias": "MUSA, DZANAN",
+            "aliasRaw": "MUSA, DZANAN",
+            "passportName": "DZANAN",
+            "passportSurname": "MUSA",
+            "jerseyName": "MUSA",
+            "abbreviatedName": "Musa, D.",
+            "country": {
+              "code": "BIH",
+              "name": "Bosnia and Herzegovina"
+            },
+            "height": 205,
+            "weight": 101,
+            "birthDate": "1999-05-08T00:00:00",
+            "birthCountry": {
+              "code": "BIH",
+              "name": "Bosnia and Herzegovina"
+            },
+            "twitterAccount": "DzananM13",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:41.261",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "31",
+          "dorsalRaw": "31",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47357,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/6e24d642-0b45-45b6-9e40-df570b8433a8.png",
+            "headshot": "https://media-cdn.incrowdsports.com/6e24d642-0b45-45b6-9e40-df570b8433a8.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1709,
+          "valuation": 19,
+          "points": 15,
+          "fieldGoalsMade2": 3,
+          "fieldGoalsAttempted2": 4,
+          "fieldGoalsMade3": 1,
+          "fieldGoalsAttempted3": 6,
+          "freeThrowsMade": 6,
+          "freeThrowsAttempted": 9,
+          "fieldGoalsMadeTotal": 4,
+          "fieldGoalsAttemptedTotal": 10,
+          "accuracyMade": 15,
+          "accuracyAttempted": 35,
+          "totalRebounds": 5,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 3,
+          "assistances": 4,
+          "steals": 1,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 5,
+          "plusMinus": -8,
+          "dorsal": 31,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "009213",
+            "name": "NDIAYE, ELI",
+            "alias": "NDIAYE, ELI",
+            "aliasRaw": "NDIAYE, ELI",
+            "passportName": "ELI JOHN",
+            "passportSurname": "NDIAYE",
+            "jerseyName": "NDIAYE",
+            "abbreviatedName": "Ndiaye, E.",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 204,
+            "weight": 92,
+            "birthDate": "2004-06-26T00:00:00",
+            "birthCountry": {
+              "code": "SEN",
+              "name": "Senegal"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:40.767",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "30",
+          "dorsalRaw": "30",
+          "position": 3,
+          "positionName": "Center",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47356,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/904e39c9-6169-4ed1-ab6b-1a24b94c7197.png",
+            "headshot": "https://media-cdn.incrowdsports.com/904e39c9-6169-4ed1-ab6b-1a24b94c7197.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 431,
+          "valuation": 8,
+          "points": 8,
+          "fieldGoalsMade2": 1,
+          "fieldGoalsAttempted2": 1,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 2,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 3,
+          "fieldGoalsAttemptedTotal": 3,
+          "accuracyMade": 8,
+          "accuracyAttempted": 8,
+          "totalRebounds": 1,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 0,
+          "plusMinus": 8,
+          "dorsal": 30,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "004887",
+            "name": "POIRIER, VINCENT",
+            "alias": "Poirier, Vincent",
+            "aliasRaw": "Poirier, Vincent",
+            "passportName": "VINCENT YANN",
+            "passportSurname": "POIRIER",
+            "jerseyName": "POIRIER",
+            "abbreviatedName": "Poirier, V.",
+            "country": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "height": 213,
+            "weight": 110,
+            "birthDate": "1993-10-17T00:00:00",
+            "birthCountry": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "twitterAccount": "viinze_17P",
+            "instagramAccount": "viinze_17p/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:38.906",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "17",
+          "dorsalRaw": "17",
+          "position": 3,
+          "positionName": "Center",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47352,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/5433e034-2047-4dc5-ab78-e10a4c119252.png",
+            "action": "https://media-cdn.incrowdsports.com/5433e034-2047-4dc5-ab78-e10a4c119252.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 978,
+          "valuation": 8,
+          "points": 8,
+          "fieldGoalsMade2": 3,
+          "fieldGoalsAttempted2": 6,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 2,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 3,
+          "fieldGoalsAttemptedTotal": 6,
+          "accuracyMade": 8,
+          "accuracyAttempted": 14,
+          "totalRebounds": 4,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 2,
+          "assistances": 2,
+          "steals": 1,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 5,
+          "foulsReceived": 1,
+          "plusMinus": 1,
+          "dorsal": 17,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "CVM",
+            "name": "RODRIGUEZ, SERGIO",
+            "alias": "Rodriguez",
+            "aliasRaw": "Rodriguez",
+            "passportName": "SERGIO",
+            "passportSurname": "RODRIGUEZ GOMEZ",
+            "jerseyName": "RODRIGUEZ",
+            "abbreviatedName": "Rodriguez, S.",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 191,
+            "weight": 83,
+            "birthDate": "1986-06-12T00:00:00",
+            "birthCountry": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "twitterAccount": "SergioRodriguez",
+            "instagramAccount": "sergiorodriguezoficial/",
+            "facebookAccount": "sergiorodriguez",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:37.892",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "13",
+          "dorsalRaw": "13",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47350,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/d605b7e7-d619-4620-93b1-5979b22592bc.png",
+            "action": "https://media-cdn.incrowdsports.com/d605b7e7-d619-4620-93b1-5979b22592bc.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1047,
+          "valuation": 7,
+          "points": 11,
+          "fieldGoalsMade2": 3,
+          "fieldGoalsAttempted2": 5,
+          "fieldGoalsMade3": 1,
+          "fieldGoalsAttempted3": 4,
+          "freeThrowsMade": 2,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 4,
+          "fieldGoalsAttemptedTotal": 9,
+          "accuracyMade": 11,
+          "accuracyAttempted": 24,
+          "totalRebounds": 2,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 0,
+          "assistances": 2,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 4,
+          "foulsReceived": 1,
+          "plusMinus": -15,
+          "dorsal": 13,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "005791",
+            "name": "TAVARES, WALTER",
+            "alias": "Tavares",
+            "aliasRaw": "Tavares",
+            "passportName": "WALTER SAMUEL",
+            "passportSurname": "TAVARES DA VEIGA",
+            "jerseyName": "TAVARES",
+            "abbreviatedName": "Tavares, W.",
+            "country": {
+              "code": "CPV",
+              "name": "Cabo Verde"
+            },
+            "height": 220,
+            "weight": 125,
+            "birthDate": "1992-03-22T00:00:00",
+            "birthCountry": {
+              "code": "CPV",
+              "name": "Cabo Verde"
+            },
+            "twitterAccount": "waltertavares22",
+            "instagramAccount": "22edy22/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:39.405",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "22",
+          "dorsalRaw": "22",
+          "position": 3,
+          "positionName": "Center",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47353,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/e738f6cd-a59d-4db6-880b-e94172438169.png",
+            "action": "https://media-cdn.incrowdsports.com/e738f6cd-a59d-4db6-880b-e94172438169.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1286,
+          "valuation": 6,
+          "points": 4,
+          "fieldGoalsMade2": 1,
+          "fieldGoalsAttempted2": 2,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 2,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 1,
+          "fieldGoalsAttemptedTotal": 2,
+          "accuracyMade": 4,
+          "accuracyAttempted": 6,
+          "totalRebounds": 4,
+          "defensiveRebounds": 3,
+          "offensiveRebounds": 1,
+          "assistances": 1,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 1,
+          "blocksAgainst": 0,
+          "foulsCommited": 4,
+          "foulsReceived": 2,
+          "plusMinus": -13,
+          "dorsal": 22,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "010357",
+            "name": "YABUSELE, GUERSCHON",
+            "alias": "YABUSELE, GUERSCHON",
+            "aliasRaw": "YABUSELE, GUERSCHON",
+            "passportName": "GUERSCHON",
+            "passportSurname": "YABUSELE",
+            "jerseyName": "YABUSELE",
+            "abbreviatedName": "Yabusele, G.",
+            "country": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "height": 201,
+            "weight": 123,
+            "birthDate": "1995-12-17T00:00:00",
+            "birthCountry": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "twitterAccount": "DTP_Mario",
+            "instagramAccount": "guerschony/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-10-03T17:38:40.314",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "28",
+          "dorsalRaw": "28",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "REAL MADRID",
+          "externalId": 47355,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/7836b84b-e952-47c7-9683-4f8645eea386.png",
+            "headshot": "https://media-cdn.incrowdsports.com/7836b84b-e952-47c7-9683-4f8645eea386.png"
+          },
+          "club": {
+            "code": "MAD",
+            "name": "Real Madrid",
+            "abbreviatedName": "Real",
+            "editorialName": "Real",
+            "tvCode": "RMB",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1193,
+          "valuation": 1,
+          "points": 6,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 5,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 2,
+          "fieldGoalsAttemptedTotal": 5,
+          "accuracyMade": 6,
+          "accuracyAttempted": 15,
+          "totalRebounds": 1,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 2,
+          "foulsReceived": 0,
+          "plusMinus": -21,
+          "dorsal": 28,
+          "startFive": false,
+          "startFive2": false
+        }
+      }
+    ],
+    "team": {
+      "timePlayed": 0,
+      "valuation": 3,
+      "points": 0,
+      "fieldGoalsMade2": 0,
+      "fieldGoalsAttempted2": 0,
+      "fieldGoalsMade3": 0,
+      "fieldGoalsAttempted3": 0,
+      "freeThrowsMade": 0,
+      "freeThrowsAttempted": 0,
+      "fieldGoalsMadeTotal": 0,
+      "fieldGoalsAttemptedTotal": 0,
+      "accuracyMade": 0,
+      "accuracyAttempted": 0,
+      "totalRebounds": 3,
+      "defensiveRebounds": 1,
+      "offensiveRebounds": 2,
+      "assistances": 0,
+      "steals": 0,
+      "turnovers": 0,
+      "blocksFavour": 0,
+      "blocksAgainst": 0,
+      "foulsCommited": 0,
+      "foulsReceived": 0,
+      "plusMinus": 0
+    },
+    "total": {
+      "timePlayed": 2400,
+      "valuation": 82,
+      "points": 80,
+      "fieldGoalsMade2": 16,
+      "fieldGoalsAttempted2": 29,
+      "fieldGoalsMade3": 11,
+      "fieldGoalsAttempted3": 36,
+      "freeThrowsMade": 15,
+      "freeThrowsAttempted": 18,
+      "fieldGoalsMadeTotal": 27,
+      "fieldGoalsAttemptedTotal": 65,
+      "accuracyMade": 80,
+      "accuracyAttempted": 184,
+      "totalRebounds": 31,
+      "defensiveRebounds": 21,
+      "offensiveRebounds": 10,
+      "assistances": 17,
+      "steals": 6,
+      "turnovers": 7,
+      "blocksFavour": 1,
+      "blocksAgainst": 0,
+      "foulsCommited": 25,
+      "foulsReceived": 20,
+      "plusMinus": -75
+    }
+  },
+  "road": {
+    "coach": {
+      "code": "WCL",
+      "name": "ATAMAN, ERGIN"
+    },
+    "players": [
+      {
+        "player": {
+          "person": {
+            "code": "011221",
+            "name": "ANTETOKOUNMPO, KOSTAS",
+            "alias": "ANTETOKOUNMPO, KOSTAS",
+            "aliasRaw": "ANTETOKOUNMPO, KOSTAS",
+            "passportName": "NTOUMPOUISI",
+            "passportSurname": "ANTETOKOUNMPO",
+            "jerseyName": "K.ANTETOKOUNMPO",
+            "abbreviatedName": "Antetokounmpo, K.",
+            "country": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "height": 208,
+            "weight": 105,
+            "birthDate": "1997-11-20T00:00:00",
+            "birthCountry": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "twitterAccount": "Kostas_ante13",
+            "instagramAccount": "kostas__ante13/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:24.439",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "37",
+          "dorsalRaw": "37",
+          "position": 3,
+          "positionName": "Center",
+          "lastTeam": "FENERBAHCE BEKO ISTANBUL",
+          "externalId": 47162,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/ca631eea-9f75-4c25-92fe-9241ae09ac68.png",
+            "headshot": "https://media-cdn.incrowdsports.com/ca631eea-9f75-4c25-92fe-9241ae09ac68.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 190,
+          "valuation": 0,
+          "points": 0,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 0,
+          "accuracyMade": 0,
+          "accuracyAttempted": 0,
+          "totalRebounds": 0,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 0,
+          "foulsReceived": 0,
+          "plusMinus": -2,
+          "dorsal": 37,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "007553",
+            "name": "BALCEROWSKI, ALEKSANDER",
+            "alias": "BALCEROWSKI, ALEKSANDER",
+            "aliasRaw": "BALCEROWSKI, ALEKSANDER",
+            "passportName": "ALEKSANDER ROMAN",
+            "passportSurname": "BALCEROWSKI",
+            "jerseyName": "BALCEROWSKI",
+            "abbreviatedName": "Balcerowski, A.",
+            "country": {
+              "code": "POL",
+              "name": "Poland"
+            },
+            "height": 215,
+            "weight": 105,
+            "birthDate": "2000-11-19T00:00:00",
+            "birthCountry": {
+              "code": "POL",
+              "name": "Poland"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:21.068",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "8",
+          "dorsalRaw": "8",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "GRAN CANARIA",
+          "externalId": 47156,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/298ad210-3711-48dd-9826-c7e7a7af8a37.png",
+            "headshot": "https://media-cdn.incrowdsports.com/298ad210-3711-48dd-9826-c7e7a7af8a37.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 0,
+          "valuation": 0,
+          "points": 0,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 0,
+          "accuracyMade": 0,
+          "accuracyAttempted": 0,
+          "totalRebounds": 0,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 0,
+          "foulsReceived": 0,
+          "plusMinus": 0,
+          "dorsal": 8,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "011204",
+            "name": "GRANT, JERIAN",
+            "alias": "GRANT, JERIAN",
+            "aliasRaw": "GRANT, JERIAN",
+            "passportName": "HOLDYN JERIAN",
+            "passportSurname": "GRANT",
+            "jerseyName": "GRANT",
+            "abbreviatedName": "Grant, J.",
+            "country": {
+              "code": "USA",
+              "name": "United States of America"
+            },
+            "height": 196,
+            "weight": 91,
+            "birthDate": "1992-10-09T00:00:00",
+            "birthCountry": {
+              "code": "USA",
+              "name": "United States of America"
+            },
+            "twitterAccount": "JerianGrant",
+            "instagramAccount": "jeriangrant/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:23.33",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "22",
+          "dorsalRaw": "22",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "TURK TELEKOM B.K.",
+          "externalId": 47160,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/7def3af1-d949-4c19-9e84-0999dc029aa3.png",
+            "headshot": "https://media-cdn.incrowdsports.com/7def3af1-d949-4c19-9e84-0999dc029aa3.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1958,
+          "valuation": 17,
+          "points": 11,
+          "fieldGoalsMade2": 2,
+          "fieldGoalsAttempted2": 6,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 2,
+          "freeThrowsMade": 1,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 4,
+          "fieldGoalsAttemptedTotal": 8,
+          "accuracyMade": 11,
+          "accuracyAttempted": 20,
+          "totalRebounds": 6,
+          "defensiveRebounds": 6,
+          "offensiveRebounds": 0,
+          "assistances": 5,
+          "steals": 2,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 3,
+          "foulsReceived": 1,
+          "plusMinus": 18,
+          "dorsal": 22,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "002328",
+            "name": "GRIGONIS, MARIUS",
+            "alias": "Grigonis",
+            "aliasRaw": "Grigonis",
+            "passportName": "MARIUS",
+            "passportSurname": "GRIGONIS",
+            "jerseyName": "GRIGONIS",
+            "abbreviatedName": "Grigonis, M.",
+            "country": {
+              "code": "LTU",
+              "name": "Lithuania"
+            },
+            "height": 198,
+            "weight": 93,
+            "birthDate": "1994-04-26T00:00:00",
+            "birthCountry": {
+              "code": "LTU",
+              "name": "Lithuania"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "grigulica/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {
+              "action": "https://media-cdn.incrowdsports.com/ef1ccd89-1bd0-4e98-9a2e-063cbb37966c.png"
+            }
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:25.144",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "40",
+          "dorsalRaw": "40",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "PANATHINAIKOS BSA",
+          "externalId": 47163,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/2371b4bf-c177-43aa-97e4-f3aa3a66e4b0.png",
+            "action": "https://media-cdn.incrowdsports.com/2371b4bf-c177-43aa-97e4-f3aa3a66e4b0.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 400,
+          "valuation": -3,
+          "points": 0,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 1,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 0,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 1,
+          "accuracyMade": 0,
+          "accuracyAttempted": 2,
+          "totalRebounds": 1,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 2,
+          "foulsReceived": 0,
+          "plusMinus": -5,
+          "dorsal": 40,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "012712",
+            "name": "HERNANGOMEZ, JUANCHO",
+            "alias": "HERNANGOMEZ, JUANCHO",
+            "aliasRaw": "HERNANGOMEZ, JUANCHO",
+            "passportName": "JUAN ALBERTO",
+            "passportSurname": "HERNANGOMEZ GEUER",
+            "jerseyName": "HERNANGOMEZ",
+            "abbreviatedName": "",
+            "country": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "height": 206,
+            "weight": 97,
+            "birthDate": "1995-09-28T00:00:00",
+            "birthCountry": {
+              "code": "ESP",
+              "name": "Spain"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:25.761",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "41",
+          "dorsalRaw": "41",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "TORONTO TAPTORS",
+          "externalId": 47164,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/8beb7faa-4978-4528-aae6-70d504d3cd98.png",
+            "headshot": "https://media-cdn.incrowdsports.com/8beb7faa-4978-4528-aae6-70d504d3cd98.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1189,
+          "valuation": 6,
+          "points": 5,
+          "fieldGoalsMade2": 2,
+          "fieldGoalsAttempted2": 2,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 3,
+          "freeThrowsMade": 1,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 2,
+          "fieldGoalsAttemptedTotal": 5,
+          "accuracyMade": 5,
+          "accuracyAttempted": 15,
+          "totalRebounds": 4,
+          "defensiveRebounds": 4,
+          "offensiveRebounds": 0,
+          "assistances": 1,
+          "steals": 1,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 1,
+          "plusMinus": 8,
+          "dorsal": 41,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "011209",
+            "name": "KALAITZAKIS, PANAGIOTIS",
+            "alias": "KALAITZAKIS, PANAGIOTIS",
+            "aliasRaw": "KALAITZAKIS, PANAGIOTIS",
+            "passportName": "PANAGIOTIS",
+            "passportSurname": "KALAITZAKIS",
+            "jerseyName": "KALAITZAKIS P.",
+            "abbreviatedName": "Kalaitzakis, P.",
+            "country": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "height": 200,
+            "weight": 92,
+            "birthDate": "1999-01-02T00:00:00",
+            "birthCountry": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "panagiotis_kalaitzakis",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {
+              "action": "https://media-cdn.incrowdsports.com/54a7a901-a7d0-4d29-8220-cc1ab9188273.png"
+            }
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:18.564",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "0",
+          "dorsalRaw": "0",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "PANATHINAIKOS BSA",
+          "externalId": 47152,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/57b604db-3e66-4f92-a908-7eebedfd67b8.png",
+            "action": "https://media-cdn.incrowdsports.com/57b604db-3e66-4f92-a908-7eebedfd67b8.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 364,
+          "valuation": 2,
+          "points": 2,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 1,
+          "freeThrowsMade": 2,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 0,
+          "fieldGoalsAttemptedTotal": 1,
+          "accuracyMade": 2,
+          "accuracyAttempted": 5,
+          "totalRebounds": 2,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 1,
+          "plusMinus": 2,
+          "dorsal": 0,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "003842",
+            "name": "LESSORT, MATHIAS",
+            "alias": "LESSORT, M.",
+            "aliasRaw": "LESSORT, M.",
+            "passportName": "MATHIAS MICHEL",
+            "passportSurname": "LESSORT",
+            "jerseyName": "LESSORT",
+            "abbreviatedName": "Lessort, M.",
+            "country": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "height": 206,
+            "weight": 113,
+            "birthDate": "1995-09-29T00:00:00",
+            "birthCountry": {
+              "code": "FRA",
+              "name": "France"
+            },
+            "twitterAccount": "ThiasLsf",
+            "instagramAccount": "thiaslsf",
+            "facebookAccount": "Mathias-Lessort-1975508795998477",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:23.907",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "26",
+          "dorsalRaw": "26",
+          "position": 3,
+          "positionName": "Center",
+          "lastTeam": "KK PARTIZAN BELGRADE",
+          "externalId": 47161,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/c69345b9-052a-41ed-a53d-e82d2d4c3687.png",
+            "action": "https://media-cdn.incrowdsports.com/c69345b9-052a-41ed-a53d-e82d2d4c3687.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1993,
+          "valuation": 22,
+          "points": 17,
+          "fieldGoalsMade2": 5,
+          "fieldGoalsAttempted2": 8,
+          "fieldGoalsMade3": 0,
+          "fieldGoalsAttempted3": 1,
+          "freeThrowsMade": 7,
+          "freeThrowsAttempted": 10,
+          "fieldGoalsMadeTotal": 5,
+          "fieldGoalsAttemptedTotal": 9,
+          "accuracyMade": 17,
+          "accuracyAttempted": 29,
+          "totalRebounds": 6,
+          "defensiveRebounds": 4,
+          "offensiveRebounds": 2,
+          "assistances": 1,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 4,
+          "foulsReceived": 10,
+          "plusMinus": 14,
+          "dorsal": 26,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "007866",
+            "name": "MITOGLOU, KONSTANTINOS",
+            "alias": "MITOGLOU, KONSTANTINOS",
+            "aliasRaw": "MITOGLOU, KONSTANTINOS",
+            "passportName": "KONSTANTINOS",
+            "passportSurname": "MITOGLOU",
+            "jerseyName": "MITOGLOU",
+            "abbreviatedName": "Mitoglou, K.",
+            "country": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "height": 210,
+            "weight": 113,
+            "birthDate": "1996-06-11T00:00:00",
+            "birthCountry": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "twitterAccount": "D_Mitoglou",
+            "instagramAccount": "mitoo44/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:26.653",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "44",
+          "dorsalRaw": "44",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "EA7 EMPORIO ARMANI MILAN",
+          "externalId": 47165,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/ff93a9d7-f400-4494-ae2e-72cfd057ac85.png",
+            "headshot": "https://media-cdn.incrowdsports.com/ff93a9d7-f400-4494-ae2e-72cfd057ac85.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1055,
+          "valuation": 9,
+          "points": 8,
+          "fieldGoalsMade2": 1,
+          "fieldGoalsAttempted2": 3,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 2,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 3,
+          "fieldGoalsAttemptedTotal": 5,
+          "accuracyMade": 8,
+          "accuracyAttempted": 12,
+          "totalRebounds": 3,
+          "defensiveRebounds": 3,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 1,
+          "foulsReceived": 1,
+          "plusMinus": 6,
+          "dorsal": 44,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "012774",
+            "name": "NUNN, KENDRICK",
+            "alias": "NUNN, KENDRICK",
+            "aliasRaw": "NUNN, KENDRICK",
+            "passportName": "KENDRICK MELVIN",
+            "passportSurname": "NUNN",
+            "jerseyName": "NUNN",
+            "abbreviatedName": "",
+            "country": {
+              "code": "USA",
+              "name": "United States of America"
+            },
+            "height": 195,
+            "weight": 86,
+            "birthDate": "1995-08-03T00:00:00",
+            "birthCountry": {
+              "code": "USA",
+              "name": "United States of America"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-11-08T17:35:56.179",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "25",
+          "dorsalRaw": "25",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "WASHINGTON WIZARDS",
+          "externalId": 47516,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/141e4124-6e7c-4d66-b1f3-132a582f117f.png",
+            "headshot": "https://media-cdn.incrowdsports.com/141e4124-6e7c-4d66-b1f3-132a582f117f.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1452,
+          "valuation": 12,
+          "points": 21,
+          "fieldGoalsMade2": 6,
+          "fieldGoalsAttempted2": 12,
+          "fieldGoalsMade3": 2,
+          "fieldGoalsAttempted3": 6,
+          "freeThrowsMade": 3,
+          "freeThrowsAttempted": 3,
+          "fieldGoalsMadeTotal": 8,
+          "fieldGoalsAttemptedTotal": 18,
+          "accuracyMade": 21,
+          "accuracyAttempted": 45,
+          "totalRebounds": 3,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 1,
+          "assistances": 3,
+          "steals": 0,
+          "turnovers": 2,
+          "blocksFavour": 0,
+          "blocksAgainst": 1,
+          "foulsCommited": 4,
+          "foulsReceived": 2,
+          "plusMinus": 9,
+          "dorsal": 25,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "005161",
+            "name": "PAPAPETROU, IOANNIS",
+            "alias": "Papapetrou",
+            "aliasRaw": "Papapetrou",
+            "passportName": "IOANNIS",
+            "passportSurname": "PAPAPETROU",
+            "jerseyName": "PAPAPETROU",
+            "abbreviatedName": "Papapetrou, I.",
+            "country": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "height": 206,
+            "weight": 106,
+            "birthDate": "1994-03-30T00:00:00",
+            "birthCountry": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "pap_33/",
+            "facebookAccount": "AirPapiOlympiacos/",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:22.692",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "21",
+          "dorsalRaw": "21",
+          "position": 2,
+          "positionName": "Forward",
+          "lastTeam": "PARTIZAN MOZZART BET BELGRADE",
+          "externalId": 47159,
+          "images": {
+            "action": "https://media-cdn.incrowdsports.com/892aa367-c182-4376-a651-d922b37e68f8.png",
+            "headshot": "https://media-cdn.incrowdsports.com/892aa367-c182-4376-a651-d922b37e68f8.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1103,
+          "valuation": 1,
+          "points": 4,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 1,
+          "fieldGoalsMade3": 1,
+          "fieldGoalsAttempted3": 2,
+          "freeThrowsMade": 1,
+          "freeThrowsAttempted": 2,
+          "fieldGoalsMadeTotal": 1,
+          "fieldGoalsAttemptedTotal": 3,
+          "accuracyMade": 4,
+          "accuracyAttempted": 10,
+          "totalRebounds": 1,
+          "defensiveRebounds": 0,
+          "offensiveRebounds": 1,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 2,
+          "foulsReceived": 1,
+          "plusMinus": 4,
+          "dorsal": 21,
+          "startFive": true,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "001926",
+            "name": "SLOUKAS, KOSTAS",
+            "alias": "Sloukas",
+            "aliasRaw": "Sloukas",
+            "passportName": "KONSTANTINOS",
+            "passportSurname": "SLOUKAS",
+            "jerseyName": "SLOUKAS",
+            "abbreviatedName": "Sloukas, K.",
+            "country": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "height": 190,
+            "weight": 87,
+            "birthDate": "1990-01-15T00:00:00",
+            "birthCountry": {
+              "code": "GRE",
+              "name": "Greece"
+            },
+            "twitterAccount": "kos_slou",
+            "instagramAccount": "kos_slou/",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:21.656",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "10",
+          "dorsalRaw": "10",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "OLYMPIACOS PIRAEUS",
+          "externalId": 47157,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/6eee6a67-7ce1-4c05-aae9-458bb0e691eb.png",
+            "action": "https://media-cdn.incrowdsports.com/6eee6a67-7ce1-4c05-aae9-458bb0e691eb.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 1500,
+          "valuation": 31,
+          "points": 24,
+          "fieldGoalsMade2": 2,
+          "fieldGoalsAttempted2": 2,
+          "fieldGoalsMade3": 4,
+          "fieldGoalsAttempted3": 4,
+          "freeThrowsMade": 8,
+          "freeThrowsAttempted": 9,
+          "fieldGoalsMadeTotal": 6,
+          "fieldGoalsAttemptedTotal": 6,
+          "accuracyMade": 24,
+          "accuracyAttempted": 25,
+          "totalRebounds": 2,
+          "defensiveRebounds": 2,
+          "offensiveRebounds": 0,
+          "assistances": 3,
+          "steals": 0,
+          "turnovers": 2,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 2,
+          "foulsReceived": 7,
+          "plusMinus": 9,
+          "dorsal": 10,
+          "startFive": false,
+          "startFive2": false
+        }
+      },
+      {
+        "player": {
+          "person": {
+            "code": "007947",
+            "name": "VILDOZA, LUCA",
+            "alias": "VILDOZA, LUCA",
+            "aliasRaw": "VILDOZA, LUCA",
+            "passportName": "LUCA",
+            "passportSurname": "VILDOZA",
+            "jerseyName": "VILDOZA",
+            "abbreviatedName": "Vildoza, L.",
+            "country": {
+              "code": "ITA",
+              "name": "Italy"
+            },
+            "height": 191,
+            "weight": 86,
+            "birthDate": "1995-08-11T00:00:00",
+            "birthCountry": {
+              "code": "ARG",
+              "name": "Argentina"
+            },
+            "twitterAccount": "",
+            "instagramAccount": "",
+            "facebookAccount": "",
+            "isReferee": false,
+            "images": {}
+          },
+          "type": "J",
+          "typeName": "Player",
+          "active": true,
+          "startDate": "2023-09-28T17:31:19.1",
+          "endDate": "2024-06-30T00:00:00",
+          "order": 0,
+          "dorsal": "2",
+          "dorsalRaw": "2",
+          "position": 1,
+          "positionName": "Guard",
+          "lastTeam": "KK CRVENA ZVEZDA",
+          "externalId": 47153,
+          "images": {
+            "headshot": "https://media-cdn.incrowdsports.com/f35454b8-6ad3-4820-a3b7-bb405ec2f11b.png",
+            "action": "https://media-cdn.incrowdsports.com/f35454b8-6ad3-4820-a3b7-bb405ec2f11b.png"
+          },
+          "club": {
+            "code": "PAN",
+            "name": "Panathinaikos AKTOR Athens",
+            "abbreviatedName": "Panathinaikos",
+            "editorialName": "Panathinaikos",
+            "tvCode": "PAO",
+            "isVirtual": false,
+            "images": {
+              "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+            }
+          },
+          "season": {
+            "name": "EuroLeague 2023-24",
+            "code": "E2023",
+            "alias": "2023-24",
+            "competitionCode": "E",
+            "year": 2023,
+            "startDate": "2023-06-29T00:00:00"
+          }
+        },
+        "stats": {
+          "timePlayed": 796,
+          "valuation": 3,
+          "points": 3,
+          "fieldGoalsMade2": 0,
+          "fieldGoalsAttempted2": 0,
+          "fieldGoalsMade3": 1,
+          "fieldGoalsAttempted3": 1,
+          "freeThrowsMade": 0,
+          "freeThrowsAttempted": 0,
+          "fieldGoalsMadeTotal": 1,
+          "fieldGoalsAttemptedTotal": 1,
+          "accuracyMade": 3,
+          "accuracyAttempted": 3,
+          "totalRebounds": 1,
+          "defensiveRebounds": 1,
+          "offensiveRebounds": 0,
+          "assistances": 0,
+          "steals": 0,
+          "turnovers": 1,
+          "blocksFavour": 0,
+          "blocksAgainst": 0,
+          "foulsCommited": 0,
+          "foulsReceived": 0,
+          "plusMinus": 12,
+          "dorsal": 2,
+          "startFive": false,
+          "startFive2": false
+        }
+      }
+    ],
+    "team": {
+      "timePlayed": 0,
+      "valuation": 8,
+      "points": 0,
+      "fieldGoalsMade2": 0,
+      "fieldGoalsAttempted2": 0,
+      "fieldGoalsMade3": 0,
+      "fieldGoalsAttempted3": 0,
+      "freeThrowsMade": 0,
+      "freeThrowsAttempted": 0,
+      "fieldGoalsMadeTotal": 0,
+      "fieldGoalsAttemptedTotal": 0,
+      "accuracyMade": 0,
+      "accuracyAttempted": 0,
+      "totalRebounds": 8,
+      "defensiveRebounds": 4,
+      "offensiveRebounds": 4,
+      "assistances": 0,
+      "steals": 0,
+      "turnovers": 0,
+      "blocksFavour": 0,
+      "blocksAgainst": 0,
+      "foulsCommited": 0,
+      "foulsReceived": 0,
+      "plusMinus": 0
+    },
+    "total": {
+      "timePlayed": 2400,
+      "valuation": 108,
+      "points": 95,
+      "fieldGoalsMade2": 18,
+      "fieldGoalsAttempted2": 35,
+      "fieldGoalsMade3": 12,
+      "fieldGoalsAttempted3": 22,
+      "freeThrowsMade": 23,
+      "freeThrowsAttempted": 30,
+      "fieldGoalsMadeTotal": 30,
+      "fieldGoalsAttemptedTotal": 57,
+      "accuracyMade": 95,
+      "accuracyAttempted": 166,
+      "totalRebounds": 37,
+      "defensiveRebounds": 29,
+      "offensiveRebounds": 8,
+      "assistances": 13,
+      "steals": 3,
+      "turnovers": 9,
+      "blocksFavour": 0,
+      "blocksAgainst": 1,
+      "foulsCommited": 20,
+      "foulsReceived": 24,
+      "plusMinus": 75
+    }
+  }
+}

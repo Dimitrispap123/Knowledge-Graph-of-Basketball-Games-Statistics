@@ -1,0 +1,146 @@
+{
+  "identifier": "E2023_333",
+  "gameCode": 333,
+  "season": {
+    "name": "EuroLeague 2023-24",
+    "code": "E2023",
+    "alias": "2023-24",
+    "competitionCode": "E",
+    "year": 2023,
+    "startDate": "2023-06-29T00:00:00"
+  },
+  "group": {
+    "id": "3f1097e9-6556-4287-9ad1-7560fcb9eb2c",
+    "order": 4,
+    "name": "Group CHAMPIONSHIP GAME \t",
+    "rawName": "CHAMPIONSHIP GAME \t"
+  },
+  "phaseType": {
+    "code": "FF",
+    "alias": "FINAL FOUR",
+    "name": "Final Four",
+    "isGroupPhase": false
+  },
+  "round": 43,
+  "roundAlias": "Round 43",
+  "roundName": "Round 43",
+  "played": true,
+  "date": "2024-05-26T20:00:00",
+  "confirmedDate": true,
+  "confirmedHour": true,
+  "localTimeZone": 2,
+  "localDate": "2024-05-26T20:00:00",
+  "utcDate": "2024-05-26T18:00:00Z",
+  "local": {
+    "club": {
+      "code": "MAD",
+      "name": "Real Madrid",
+      "abbreviatedName": "Real",
+      "editorialName": "Real",
+      "tvCode": "RMB",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/1a3e1404-4f6f-4ede-9d8b-30eee7cb51b4.png"
+      }
+    },
+    "score": 80,
+    "standingsScore": 80,
+    "partials": {
+      "partials1": 36,
+      "partials2": 18,
+      "partials3": 7,
+      "partials4": 19,
+      "extraPeriods": {}
+    }
+  },
+  "road": {
+    "club": {
+      "code": "PAN",
+      "name": "Panathinaikos AKTOR Athens",
+      "abbreviatedName": "Panathinaikos",
+      "editorialName": "Panathinaikos",
+      "tvCode": "PAO",
+      "isVirtual": false,
+      "images": {
+        "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+      }
+    },
+    "score": 95,
+    "standingsScore": 95,
+    "partials": {
+      "partials1": 25,
+      "partials2": 24,
+      "partials3": 15,
+      "partials4": 31,
+      "extraPeriods": {}
+    }
+  },
+  "audience": 13578,
+  "audienceConfirmed": true,
+  "socialFeed": "",
+  "operationsCode": null,
+  "referee1": {
+    "code": "OABC",
+    "name": "ROCHA, FERNANDO",
+    "alias": "ROCHA, F.",
+    "country": {
+      "code": "POR",
+      "name": "Portugal"
+    },
+    "images": {
+      "verticalSmall": "88654j47f8j5rrkt"
+    },
+    "active": true
+  },
+  "referee2": {
+    "code": "OACI",
+    "name": "BELOSEVIC, ILIJA",
+    "alias": "BELOSEVIC, I.",
+    "country": {
+      "code": "SRB",
+      "name": "Serbia"
+    },
+    "images": {
+      "verticalSmall": "ayrnxwrdng99dusy"
+    },
+    "active": true
+  },
+  "referee3": {
+    "code": "OJLL",
+    "name": "DIFALLAH, MEHDI",
+    "alias": "DIFALLAH, M.",
+    "country": {
+      "code": "FRA",
+      "name": "France"
+    },
+    "images": {
+      "verticalSmall": "87ytu4ivn6qtsqni"
+    },
+    "active": true
+  },
+  "referee4": null,
+  "venue": {
+    "name": "UBER ARENA",
+    "code": "ASY4",
+    "capacity": 14500,
+    "address": "Mercedes-Platz 1, Berlin",
+    "images": {
+      "medium": null
+    },
+    "active": true,
+    "notes": ""
+  },
+  "isNeutralVenue": false,
+  "gameStatus": "Confirmed",
+  "winner": {
+    "code": "PAN",
+    "name": "Panathinaikos AKTOR Athens",
+    "abbreviatedName": "Panathinaikos",
+    "editorialName": "Panathinaikos",
+    "tvCode": "PAO",
+    "isVirtual": false,
+    "images": {
+      "crest": "https://media-cdn.incrowdsports.com/e3dff28a-9ec6-4faf-9d96-ecbc68f75780.png"
+    }
+  }
+}
