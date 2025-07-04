@@ -117,24 +117,6 @@ Virtuoso virtuoso = new Virtuoso();
 virtuoso.uploadAllFiles();
 ```
 
-### SPARQL Queries
-```sparql
-# Find top scorers with height < 1.85m
-SELECT DISTINCT ?playerName ?points ?height
-WHERE {
-  ?game a bball:Game ;
-        bball:hasTeamBoxscore ?boxscore .
-  ?boxscore bball:hasPlayerParticipation ?participation .
-  ?participation bball:overPlayer ?player ;
-                bball:hasPlayerStatline ?statline .
-  ?player rdfs:label ?playerName ;
-          bball:hasHeight ?height .
-  FILTER (?height < 1.85)
-  ?statline bball:points ?points .
-}
-ORDER BY DESC(?points)
-LIMIT 10
-```
 
 ## 🗂️ Data Structure
 
@@ -156,11 +138,3 @@ LIMIT 10
 - **Playmaking**: Assists, turnovers
 - **Advanced Metrics**: PIR (Performance Index Rating), plus/minus
 - **Game Context**: Playing time, fouls, technical details
-
-## 🔍 SPARQL Examples
-
-### Coach Win Percentage
-```sparql
-SELECT (COUNT(?winningGame) / xsd:double(COUNT(?game)) AS ?winPercentage)
-WHERE {
-  ?coach a bball:Coach ;
