@@ -2,21 +2,6 @@
 
  A comprehensive knowledge graph system for EuroLeague basketball statistics, transforming 25 seasons of data into a semantic web format with over 5 million RDF triples.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Structure](#data-structure)
-- [SPARQL Examples](#sparql-examples)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ##  Overview
 
 This project creates a comprehensive knowledge graph for EuroLeague basketball statistics spanning 25 seasons (2000-2025). The system transforms raw basketball data from the EuroLeague API into structured RDF format using a custom-designed **BBall ontology**.
