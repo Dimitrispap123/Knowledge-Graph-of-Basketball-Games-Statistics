@@ -69,7 +69,6 @@ public class GetGamesStats {
 
                 if (seasonsRes.statusCode() == 200) {
                     String seasonsJson = seasonsRes.body();
-                    // Save the full JSON response to file (pretty-printed)
                     File seasonsFile = new File("seasons.json");
                     if (!seasonsFile.exists()) {
                         try {
@@ -83,7 +82,6 @@ public class GetGamesStats {
                             System.out.println("Seasons data saved to seasons.json");
                         } catch (Exception fileWriteException) {
                             System.err.println("Warning: Failed to save seasons data to file: " + fileWriteException.getMessage());
-                            // Continue processing even if file write fails
                         }
                     }
                     JsonNode seasonsData = mapper.readTree(seasonsRes.body()).path("data");
@@ -177,16 +175,13 @@ public class GetGamesStats {
                 seasonCode, code);
         String statsUrl = gameUrl + "/stats";
 
-        // Δοκιμάζουμε μέχρι 3 φορές
         for (int attempt = 1; attempt <= MAX_RETRIES; attempt++) {
             try {
-                // Δημιουργούμε HTTP client
                 HttpClient client = HttpClient.newBuilder()
-                        .version(HttpClient.Version.HTTP_1_1)  // Χρησιμοποιούμε HTTP/1.1 για σταθερότητα
+                        .version(HttpClient.Version.HTTP_1_1)  
                         .connectTimeout(Duration.ofSeconds(30))
                         .build();
 
-                // Παίρνουμε τα βασικά δεδομένα του αγώνα
                 HttpResponse<String> gameRes = client.send(
                         HttpRequest.newBuilder()
                                 .uri(URI.create(gameUrl))
@@ -198,7 +193,6 @@ public class GetGamesStats {
                 String gameJson = gameRes.body();
                 if (gameRes.statusCode() != 200 || gameJson.isBlank()) {
                     if (gameRes.statusCode() == 429) {
-                        // Rate limit - περιμένουμε προοδευτικά περισσότερο (2s, 4s, 6s)
                         Thread.sleep(RETRY_DELAY_MS * attempt);
                         continue;
                     } else {
@@ -207,9 +201,8 @@ public class GetGamesStats {
                     }
                 }
 
-                Thread.sleep(200); // Μικρή παύση μεταξύ των αιτημάτων
+                Thread.sleep(200); 
 
-                // Παίρνουμε τα στατιστικά του αγώνα
                 HttpResponse<String> statsRes = client.send(
                         HttpRequest.newBuilder()
                                 .uri(URI.create(statsUrl))
@@ -229,7 +222,6 @@ public class GetGamesStats {
                     }
                 }
 
-                // Αποθηκεύουμε και τα δύο αρχεία με όμορφη μορφοποίηση
                 Files.writeString(Path.of(gamesDir, "game_" + code + ".json"),
                         mapper.writerWithDefaultPrettyPrinter()
                                 .writeValueAsString(mapper.readTree(gameJson)));
@@ -237,7 +229,7 @@ public class GetGamesStats {
                 Files.writeString(Path.of(statsDir, "stats_" + code + ".json"),
                         mapper.writerWithDefaultPrettyPrinter()
                                 .writeValueAsString(mapper.readTree(statsJson)));
-                return; // Επιτυχία!
+                return; 
 
             } catch (Exception e) {
                 System.out.println("Attempt " + attempt + " failed for game " + code +
